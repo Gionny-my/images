@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 set /p msg=请输入提交备注：
 git add .
 git commit -m "%msg%"
